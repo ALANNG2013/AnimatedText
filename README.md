@@ -3,6 +3,6 @@ AnimatedText
 
 HTML5 animated text
 
-Web project on HKSHP
+Web design project on HKSHP
 
 http://www.hkshp.org
