@@ -7,16 +7,18 @@
 <title>Animated text with CSS</title>
 <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700,300,300italic' rel='stylesheet' type='text/css'>
 <script language="JavaScript" type="text/JavaScript">
-if (/MSIE (\d+\.\d+);/.test(navigator.userAgent)){ //test for MSIE x.x;
+if (/MSIE (\d+\.\d+);/.test(navigator.userAgent))
+  {                                               //test for MSIE x.x;
   var ieversion=new Number(RegExp.$1) // capture x.x portion and store as a number
   if (ieversion>=9)
   {
    document.write('<link rel="stylesheet" type="text/css" href="animateText.css" />');
    }
-}
-if (navigator.userAgent.toLowerCase().indexOf('chrome') > -1){ //test for Google Chrome x.x;
-    document.write('<link rel="stylesheet" type="text/css" href="animateText.css" />');
- }
+  }
+  if (navigator.userAgent.toLowerCase().indexOf('chrome') > -1)
+  {                                                             //test for Google Chrome x.x;
+  document.write('<link rel="stylesheet" type="text/css" href="animateText.css" />');
+  }
 </script>   
 </head>
 
